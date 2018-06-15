@@ -25,6 +25,10 @@ export class HomePage {
         window.open('https://www.cryptonator.com/api', '_system');
     }
 
+    goToParv(): void {
+        window.open('https://www.linkedin.com/in/parv-jain-602717a8/', '_system');
+    }
+
     refreshPrices(refresher): void {
         this.holdingsProvider.fetchPrices(refresher);
     }
